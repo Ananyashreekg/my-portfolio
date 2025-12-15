@@ -71,7 +71,7 @@ const App = () => {
       {/* Header Section */}
       <header>
         <h1>Ananyashree K G</h1>
-        <p>Software Engineer | ML | Coder | Data Science</p>
+        <p>BACKEND DEVELOPER- Nodejs | Data Analytics | PostgreSQL | ClickHouse | Redis | Python | Data Architecture |</p>
       </header>
 
       {/* Navigation */}

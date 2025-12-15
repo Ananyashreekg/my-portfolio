@@ -1,30 +1,38 @@
-// components/Contact.js (unchanged)
-import React from 'react';
 
-const Contact = () => (
-  <section id="contact" className="p-8">
-    <h2 className="section-title">Contact Me</h2>
-    <div className="max-w-600 mx-auto">
-      <p className="text-center mb-6">Feel free to reach out via email or connect with me on social media!</p>
-      <form className="space-y-4">
-        <div>
-          <label className="block text-sm font-medium">Name</label>
-          <input type="text" className="w-full p-2 border rounded" placeholder="Your Name" />
-        </div>
-        <div>
-          <label className="block text-sm font-medium">Email</label>
-          <input type="email" className="w-full p-2 border rounded" placeholder="Your Email" />
-        </div>
-        <div>
-          <label className="block text-sm font-medium">Message</label>
-          <textarea className="w-full p-2 border rounded" rows="4" placeholder="Your Message"></textarea>
-        </div>
-        <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
-          Send Message
-        </button>
-      </form>
-    </div>
-  </section>
+import React from 'react';
+import { Element } from 'react-scroll';const Contact = () => (
+  
+  <Element name="contact" className="contact-section">
+    <h2>Contact</h2>
+    <p>Karnataka, India</p>
+    <p>Phone: 77959 41236</p>
+    <p>
+      Email:{' '}
+      <a href="mailto:ananyashreekg933@gmail.com">
+        ananyashreekg933@gmail.com
+      </a>
+    </p>
+    <p>
+      LinkedIn:{' '}
+      <a
+        href="https://www.linkedin.com/in/ananyashree-k-g-72830a241/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        linkedin.com/in/ananyashree-k-g-72830a241
+      </a>
+    </p>
+    <p>
+      GitHub:{' '}
+      <a
+        href="https://github.com/Ananyashreekg"
+        target="_blank"
+        rel="noreferrer"
+      >
+        github.com/Ananyashreekg
+      </a>
+    </p>
+  </Element>
 );
 
 export default Contact;

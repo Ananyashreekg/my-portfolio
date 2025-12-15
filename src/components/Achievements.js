@@ -1,14 +1,23 @@
-const Achievements = () => (
-    <section id="achievements" className="p-8">
-      <h2 className="text-3xl font-semibold mb-4">Achievements</h2>
-      <ul className="list-disc ml-6">
-        <li>5-star coder on HackerRank</li>
-        <li>200+ coding problems solved on LeetCode and GFG</li>
-        <li>50-day coding streak on LeetCode</li>
-        <li>2nd place in two intercollege coding competitions</li>
-      </ul>
-    </section>
-  );
+
+import React from 'react';
+import { Element } from 'react-scroll';const Achievements = () => (
   
-  export default Achievements;
-  
+  <Element name="achievements" className="achievements-section">
+    <h2>Achievements</h2>
+    <ul>
+      <li>
+        5-star rating on HackerRank and solved 200+ coding problems across LeetCode and
+        GeeksforGeeks.
+      </li>
+      <li>
+        Secured 2nd place in two inter-college coding competitions.
+      </li>
+      <li>
+        Awarded Best Student in the department for academic excellence and active
+        participation.
+      </li>
+    </ul>
+  </Element>
+);
+
+export default Achievements;

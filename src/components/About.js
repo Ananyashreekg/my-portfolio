@@ -1,13 +1,29 @@
-const About = () => (
-    <section id="about" className="p-8">
-      <h2 className="text-3xl font-semibold mb-4">About Me</h2>
+
+import React from 'react';
+import { Element } from 'react-scroll';
+const About = () => {
+  return (
+    <Element name="about" className="about-section">
+      <h2>About Me</h2>
       <p>
-        I'm currently pursuing a Bachelor's in Computer Science at Nagarjuna College of Engineering and Technology. 
-        With a strong foundation in Python, Java, and web technologies, I'm passionate about AI, ML, and developing 
-        scalable applications. I’ve done internships in Data Science and developed several projects in computer vision and visual search.
+        I am a backend developer and Computer Science graduate from Nagarjuna College of 
+        Engineering and Technology (CGPA 9.63, Top 1 in department). I specialize in 
+        building data-driven systems using Node.js, Express.js, PostgreSQL, ClickHouse, 
+        Redis, and Python.
       </p>
-    </section>
+      <p>
+        At Saranyu Technologies, I work on production-grade OTT analytics platforms, 
+        designing RESTful APIs, optimizing ClickHouse queries, and implementing ETL 
+        pipelines from AWS S3. Earlier, I contributed to data science projects involving 
+        multivariate time-series analysis and anomaly detection.
+      </p>
+      <p>
+        I enjoy solving algorithmic problems, mentoring juniors in Data Structures and 
+        Algorithms, and building projects in visual search, deep learning, and 
+        real-time analytics.
+      </p>
+    </Element>
   );
-  
-  export default About;
-  
+};
+
+export default About;
