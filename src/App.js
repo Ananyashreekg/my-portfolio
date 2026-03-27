@@ -1,88 +1,37 @@
 import React, { useState } from 'react';
-import { Element } from 'react-scroll';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Education from './components/Education';
 import Experience from './components/Experience';
+import Education from './components/Education';
 import Achievements from './components/Achievements';
 import Contact from './components/Contact';
-import './App.css';
 
-const App = () => {
+function App() {
   const [activeTab, setActiveTab] = useState('home');
 
-  const renderSection = () => {
-    switch (activeTab) {
-      case 'home':
-        return (
-          <Element name="home">
-            <Home />
-          </Element>
-        );
-      case 'skills':
-        return (
-          <Element name="skills">
-            <Skills />
-          </Element>
-        );
-      case 'projects':
-        return (
-          <Element name="projects">
-            <Projects />
-          </Element>
-        );
-      case 'education':
-        return (
-          <Element name="education">
-            <Education />
-          </Element>
-        );
-      case 'experience':
-        return (
-          <Element name="experience">
-            <Experience />
-          </Element>
-        );
-      case 'achievements':
-        return (
-          <Element name="achievements">
-            <Achievements />
-          </Element>
-        );
-      case 'contact':
-        return (
-          <Element name="contact">
-            <Contact />
-          </Element>
-        );
-      default:
-        return (
-          <Element name="home">
-            <Home />
-          </Element>
-        );
-    }
-  };
-
   return (
-    <div className="min-h-screen font-sans text-gray-800">
-      {/* Header Section */}
-      <header>
-        <h1>Ananyashree K G</h1>
-        <p>BACKEND DEVELOPER- Nodejs | Data Analytics | PostgreSQL | ClickHouse | Redis | Python | Data Architecture |</p>
-      </header>
-
-      {/* Navigation */}
+    <div className="min-h-screen bg-[#0a0a0a] text-white">
       <Navbar setActiveTab={setActiveTab} activeTab={activeTab} />
-
-      {/* Section Blocks */}
+      
       <main>
-        {renderSection()}
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Education />
+        <Achievements />
+        <Contact />
       </main>
+
+      <footer className="py-16 text-center text-gray-500 border-t border-gray-800">
+        © 2026 Ananyashree K G • Built with React + Tailwind
+      </footer>
     </div>
   );
-};
+}
 
 export default App;
