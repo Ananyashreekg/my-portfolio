@@ -21,7 +21,7 @@ const Experience = () => {
         "Implemented robust logging, monitoring, and fault-tolerant error handling across backend services and data pipelines.",
         "Optimized database queries, ETL processes, and application workflows, achieving up to 10x improvements in query performance.",
         "Developed responsive React-based dashboards and analytics interfaces with reusable components and seamless API integration.",
-        "Collaborated with cross-functional teams to design scalable solutions and deliver data-driven features for business stakeholders."
+        "Conducted Proof-of-Concepts (PoCs) using Google YouTube Data APIs to retrieve and analyze channel, video, and engagement metrics.",
       ]
     },
     {
@@ -33,15 +33,9 @@ const Experience = () => {
       bullets: [
         "Developed backend APIs and application modules using Node.js, contributing to scalable and maintainable software solutions.",
         "Assisted in building ETL pipelines and data processing workflows for analytics and reporting requirements.",
-        "Created Python scripts for data extraction, retrieval, transformation, and validation across multiple data sources.",
-        "Built automation scripts and Cron Job-based utilities to reduce manual operational tasks and improve workflow efficiency.",
-        "Conducted Proof-of-Concepts (PoCs) using Google YouTube Data APIs to retrieve and analyze channel, video, and engagement metrics.",
-        "Generated large-scale test datasets using Python to support performance testing, analytics validation, and development activities.",
         "Worked with ClickHouse, PostgreSQL, and Redis to support analytics use cases and optimize data access patterns.",
         "Implemented logging and error-handling mechanisms to improve application reliability and simplify troubleshooting.",
-        "Assisted in frontend development using React, building reusable UI components and integrating backend APIs.",
-        "Participated in code reviews, debugging, testing, and performance optimization efforts across multiple projects.",
-        "Collaborated with senior engineers to design, implement, and deploy new features in production environments."
+        "Assisted in frontend development using React, building reusable UI components and integrating backend APIs."
       ]
     },
     {
