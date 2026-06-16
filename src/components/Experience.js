@@ -7,36 +7,47 @@ const Experience = () => {
     {
       company: "Saranyu Technologies",
       role: "Software Engineering Trainee",
-      period: "September 2025 - Present (10 months)",
+      period: "September 2025 - Present",
       location: "Bengaluru South, Karnataka, India",
       icon: <Cpu className="w-6 h-6 text-blue-400" />,
       bullets: [
-        "Engineered Scalable Backend Systems & High-Performance APIs using Node.js, enabling secure, modular, and production-ready applications.",
-        "Designed and Implemented End-to-End Data & Analytics Platforms, including ETL pipelines, data models, and real-time KPI tracking for user behavior, revenue, and growth.",
-        "Built Advanced Analytics Infrastructure using ClickHouse & Redis, delivering high-speed query performance, user funnels (DAU/MAU), and multi-dimensional insights.",
-        "Architected Multi-Tenant Systems with PostgreSQL & Prisma, incorporating dynamic filtering, secure access control, and flexible data segmentation.",
-        "Optimized System Performance and Reliability by refactoring monolithic codebases, enhancing data pipelines, and developing Python scripts for data generation & robust error handling (achieving up to 10x query speed improvements).",
-        "Developed Responsive and High-Performance Frontend Applications using React, implementing reusable components, state management, and seamless API integration to deliver intuitive, data-driven user interfaces."
+        "Engineered scalable backend systems and high-performance REST APIs using Node.js, enabling secure, modular, and production-ready applications.",
+        "Designed and implemented end-to-end data and analytics platforms, including ETL pipelines, data modeling, and real-time KPI tracking for user behavior, revenue, and growth metrics.",
+        "Built advanced analytics infrastructure using ClickHouse and Redis, enabling high-speed aggregations, DAU/MAU tracking, retention analysis, and multidimensional reporting.",
+        "Architected multi-tenant systems with PostgreSQL and Prisma, incorporating dynamic filtering, role-based access control, and flexible data segmentation.",
+        "Developed Python-based automation workflows for data ingestion, transformation, validation, and scheduled processing.",
+        "Built Cron Job-driven pipelines to automate data synchronization, reporting, and large-scale synthetic data generation.",
+        "Integrated external and internal data sources into centralized analytics systems, ensuring reliable and scalable data availability.",
+        "Implemented robust logging, monitoring, and fault-tolerant error handling across backend services and data pipelines.",
+        "Optimized database queries, ETL processes, and application workflows, achieving up to 10x improvements in query performance.",
+        "Developed responsive React-based dashboards and analytics interfaces with reusable components and seamless API integration.",
+        "Collaborated with cross-functional teams to design scalable solutions and deliver data-driven features for business stakeholders."
       ]
     },
     {
       company: "Saranyu Technologies",
       role: "Software Engineer Intern",
-      period: "June 2025 - September 2025 (4 months)",
+      period: "June 2025 - September 2025",
       location: "Bengaluru, Karnataka, India",
       icon: <Server className="w-6 h-6 text-indigo-400" />,
       bullets: [
-        "Engineered Scalable Backend Systems & High-Performance APIs using Node.js, enabling secure, modular, and production-ready applications.",
-        "Designed and Implemented End-to-End Data & Analytics Platforms, including ETL pipelines, data models, and real-time KPI tracking for user behavior, revenue, and growth.",
-        "Built Advanced Analytics Infrastructure using ClickHouse & Redis, delivering high-speed query performance, user funnels (DAU/MAU), and multi-dimensional insights.",
-        "Architected Multi-Tenant Systems with PostgreSQL & Prisma, incorporating dynamic filtering, secure access control, and flexible data segmentation.",
-        "Optimized System Performance and Reliability by Refactoring Monolithic Codebases, Enhancing Data Pipelines, and Developing Python Scripts for Data Generation & Robust Error Handling (achieving up to 10x query speed improvements)."
+        "Developed backend APIs and application modules using Node.js, contributing to scalable and maintainable software solutions.",
+        "Assisted in building ETL pipelines and data processing workflows for analytics and reporting requirements.",
+        "Created Python scripts for data extraction, retrieval, transformation, and validation across multiple data sources.",
+        "Built automation scripts and Cron Job-based utilities to reduce manual operational tasks and improve workflow efficiency.",
+        "Conducted Proof-of-Concepts (PoCs) using Google YouTube Data APIs to retrieve and analyze channel, video, and engagement metrics.",
+        "Generated large-scale test datasets using Python to support performance testing, analytics validation, and development activities.",
+        "Worked with ClickHouse, PostgreSQL, and Redis to support analytics use cases and optimize data access patterns.",
+        "Implemented logging and error-handling mechanisms to improve application reliability and simplify troubleshooting.",
+        "Assisted in frontend development using React, building reusable UI components and integrating backend APIs.",
+        "Participated in code reviews, debugging, testing, and performance optimization efforts across multiple projects.",
+        "Collaborated with senior engineers to design, implement, and deploy new features in production environments."
       ]
     },
     {
       company: "ai4sees private ltd",
       role: "Data Science Intern",
-      period: "November 2024 - January 2025 (3 months)",
+      period: "November 2024 - January 2025",
       location: "Bengaluru, Karnataka, India",
       icon: <Database className="w-6 h-6 text-emerald-400" />,
       bullets: [
