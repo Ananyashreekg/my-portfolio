@@ -14,7 +14,7 @@ const Experience = () => {
         "Engineered scalable backend systems and high-performance REST APIs using Node.js, enabling secure, modular, and production-ready applications.",
         "Designed and implemented end-to-end data and analytics platforms, including ETL pipelines, data modeling, and real-time KPI tracking for user behavior, revenue, and growth metrics.",
         "Built advanced analytics infrastructure using ClickHouse and Redis, enabling high-speed aggregations, DAU/MAU tracking, retention analysis, and multidimensional reporting.",
-        "Architected multi-tenant systems with PostgreSQL and Prisma, incorporating dynamic filtering, role-based access control, and flexible data segmentation.",
+        "Architected multi-tenant systems with PostgreSQL, incorporating dynamic filtering, role-based access control, and flexible data segmentation.",
         "Developed Python-based automation workflows for data ingestion, transformation, validation, and scheduled processing.",
         "Built Cron Job-driven pipelines to automate data synchronization, reporting, and large-scale synthetic data generation.",
         "Integrated external and internal data sources into centralized analytics systems, ensuring reliable and scalable data availability.",
